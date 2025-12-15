@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sulthana coffee-shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">☕ Coffee House</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="cart">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  
+  <section id="home" class="hero">
+    <h2>Fresh Coffee Everyday</h2>
+    <p>Best coffee in town</p>
+    <button>Order Now</button>
+  </section>
+
+
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-box">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+        <h3>Espresso</h3>
+        <p>300</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+        <h3>Cappuccino</h3>
+        <p>450</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085">
+        <h3>Latte</h3>
+        <p>400</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Coffee Moments</h2>
+    <div class="gallery-box">
+      <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0">
+      <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Bangalore | ☎ 7780589653 </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Coffee House</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
